@@ -1,7 +1,7 @@
 
-# 🚗 Car Price Prediction using Machine Learning
+#  Car Price Prediction using Machine Learning
 
-## 📌 Project Overview
+##  Project Overview
 This project focuses on predicting car prices in the American market using machine
 learning regression techniques.
 
@@ -12,7 +12,7 @@ variables explain price variations.
 
 ---
 
-## 🎯 Business Objective
+##  Business Objective
 - Identify the most important variables that affect car prices
 - Understand pricing dynamics in the US automobile market
 - Build predictive models to estimate car prices accurately
@@ -20,7 +20,7 @@ variables explain price variations.
 
 ---
 
-## 📂 Dataset Description
+##  Dataset Description
 - Dataset contains information about cars sold in the American market
 - Number of observations: **205**
 - Target variable: **price**
@@ -33,7 +33,7 @@ variables explain price variations.
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - Python
 - Pandas, NumPy
 - Matplotlib, Seaborn
@@ -42,13 +42,13 @@ variables explain price variations.
 
 ---
 
-## 🔍 Project Workflow
+##  Project Workflow
 
-### 1️⃣ Data Loading and Inspection
+### 1️ Data Loading and Inspection
 - Loaded dataset using Pandas
 - Checked data shape, column types, and basic statistics
 
-### 2️⃣ Data Preprocessing
+### 2️ Data Preprocessing
 - Checked for missing values and duplicates (none found)
 - Outlier detection using IQR method
 - Skewness analysis using histograms with KDE
@@ -56,7 +56,7 @@ variables explain price variations.
 - One-Hot Encoding applied to all categorical variables
 - Train–test split (80% training, 20% testing)
 
-### 3️⃣ Machine Learning Models Implemented
+### 3️ Machine Learning Models Implemented
 1. Linear Regression
 2. Decision Tree Regressor
 3. Random Forest Regressor
@@ -67,21 +67,21 @@ Scaling was applied only to models that required it.
 
 ---
 
-## 📊 Model Evaluation Metrics
+##  Model Evaluation Metrics
 - R² Score
 - Mean Squared Error (MSE)
 - Mean Absolute Error (MAE)
 
 ---
 
-## 🏆 Best Model
+##  Best Model
 **Random Forest Regressor**
 - R² ≈ **0.96**
 - Lowest MAE among all models
 
 ---
 
-## 📈 Feature Importance & Correlation
+##  Feature Importance & Correlation
 - Most important features:
   - Engine size
   - Curb weight
@@ -91,18 +91,18 @@ Scaling was applied only to models that required it.
 
 ---
 
-## ⚙️ Hyperparameter Tuning
+##  Hyperparameter Tuning
 - Performed using GridSearchCV
 - Default Random Forest parameters were already near optimal
 
 ---
 
-## 🧾 Conclusion
+##  Conclusion
 The Random Forest model effectively predicts car prices and provides clear insights
 into the key factors affecting pricing in the US automobile market.
 
 ---
 
-## 👤 Author
+##  Author
 **Amal Thomas**  
 BSc (Hons) Artificial Intelligence
